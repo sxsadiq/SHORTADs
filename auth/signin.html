@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sign In</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sign in to start your session">
+  <meta name="keywords" content="earn money, short link, get paid">
+  <link rel="stylesheet" href="../soft_theme/build/css/member-area-yu-idea-themes.css" />
+  <link rel="stylesheet" href="../soft_theme/build/css/scrollbar.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" media="all">
+  <link href='../../favicon.ico' type='image/x-icon' rel='icon' />
+  <link href='../../favicon.ico' type='image/x-icon' rel='shortcut icon' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="hold-transition login-page" style="font-family:Poppins;">
+  <div class="bg-animation"></div>
+  <div class="gride gride-r gride-t">
+    <div class="gride-m   gride-id gride  gride gride-h login" id="kt_login_v2">
+
+
+      <div class="gride-m  gride-h">
+
+        <div class="login-head">
+
+          <div class="login-image">
+            <a href="/">SHOETAD</a>
+          </div>
+
+          <!-- login-box-body sm-->
+
+
+
+          <!-- ! -->
+          <div class="login-signup">
+            <span>You don't have an account?</span>
+            <a href="/auth/signup.html" class="login-link login-font-b">Create an account</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="gride-m  gride  gride-r  gride-id">
+        <div class="login-body">
+          <div class="login-warp">
+            <div class="login__container">
+
+
+              <p class="login-box-msg">Login</p>
+              <div style="
+                  display: flex;
+                  justify-content: center;
+                  background: var(--pink);
+                  color: #fff;
+                  height: 40px;
+                  align-items: center;
+                  margin-bottom: 10px;
+                  margin-top: -14px;
+              ">You cant login now</div>
+
+              <!-- /! -->
+
+              <form method="post" accept-charset="utf-8" id="signin-form" action="/auth/signin.html">
+                <div style="display:none;"><input type="hidden" name="_method" value="POST" /><input type="hidden"
+                    name="_csrfToken" autocomplete="off"
+                    value="8a03cdd815c9b4ddd963288cad09f8ff87c188f2eafb058f811d4ed474bcb347ea2d420eeb4ccfce16af077f482f1de2e384f8fc86e514b57b6f9f28beb08d47" />
+                </div>
+                <div class="form-group text  required"><label for="username">Username / Email Address</label><input
+                    type="text" name="username" placeholder="Username or email address" class="form-control"
+                    required="required" maxlength="150" id="username" value="" /><span class="help-block"></span></div>
+
+                <a href="#"
+                  style="float:right;font-size:0.9em;font-weight:bold;margin-top:12px;">Forgot Password</a><span
+                  class="help-block"></span>
+
+
+                <div class="form-group password  required"><label for="password">Password</label><input type="password"
+                    name="password" placeholder="Password" class="form-control" required="required" id="password"
+                    value="" /><span class="help-block"></span></div>
+                <div class="form-group checkbox "><input type="hidden" name="remember_me" value="0" /><label
+                    for="remember-me"><input type="checkbox" name="remember_me" value="1" id="remember-me">Remember
+                    me</label><span class="help-block"></span></div>
+
+
+                <button class="btn btn-primary btn-block btn-flat btn-captcha" id="invisibleCaptchaSignin"
+                  type="submit">Login <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-log-in">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                    <polyline points="10 17 15 12 10 7"></polyline>
+                    <line x1="15" y1="12" x2="3" y2="12"></line>
+                  </svg></button>
+                <div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off"
+                    value="4bb10577eb6572ad50c06dea2310021bfaab7ed1%3A" /><input type="hidden" name="_Token[unlocked]"
+                    autocomplete="off"
+                    value="adcopy_challenge%7Cadcopy_response%7Ccaptcha_code%7Ccaptcha_namespace%7Cg-recaptcha-response%7Ch-captcha-response" />
+                </div>
+              </form>
+              <div class="social-auth-links text-center">
+                <p>- OR -</p>
+
+
+
+              </div>
+              <div class="lop">You do not have an account?
+                <a href="signup.html" class="text-center"> Create an account</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
